@@ -1,0 +1,12 @@
+#list {
+    list-style: none;
+    background-color: aqua;
+}
+h1 {
+    font-size: 50px;
+    background-color:black;
+    color: white;
+}
+#inputText {
+    background-color:khaki;
+}

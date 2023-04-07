@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+    <div class ='cardOne'>
+        <h2 class="playerOne">Player One's Name</h2>
+        <div><button type="button" class="rockPlayerOne" value ="rock" onclick="displayRockOne()">rock</button>
+        </div>
+        <div><button type="button" class="paperPlayerOne" value ="paper" onclick="displayPaperOne()">paper</button>
+        </div>
+        <div><button type="button" class="scissorsPlayerOne" onclick="displayScissorsOne()" value = "scissors">scissors</button>
+        </div>
+        <div><textarea class="textAreaOne"></textarea></div>
+    </div>
+
+    <div class = 'cardTwo'>
+        <h2 class ="playerTwo">Player Two's Name</h2>
+        <div><button type="button" class="rockPlayerTwo" value ="rock" onclick="displayRockTwo()">rock</button>
+        </div>
+        <div><button type="button" class="paperPlayerTwo" value ="paper" onclick="displayPaperTwo()" >paper</button>
+        </div>
+        <div><button type="button" class="scissorsPlayerTwo" value ="scissors" onclick="displayScissorsTwo()">scissors</button>
+        </div>
+        <div><textarea class="textAreaTwo"></textarea></div>
+    </div>
+
+    <div class = 'vsDisplay'>
+        <div>
+        <button class="playGame" onclick="playGame()">Play</button>
+        </div>
+        <textarea class="textAreaThree"></textarea>
+    </div>
+
+<!-- <div><textarea class="textAreaTwo"></textarea></div> -->
+    <script src="./script.js"></script>
+</body>
+</html>
